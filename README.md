@@ -5,8 +5,8 @@ Manual web pack configuration
 
 Create new folder webpack-react and open it:
 
-> mkdir webpack-react 
-> cd webpack-react
+- mkdir webpack-react 
+- cd webpack-react
 
  `npm init -y`
 This command will create package.json file in your directory. We pass the y option to skip the questions.
@@ -36,9 +36,9 @@ This command will create package.json file in your directory. We pass the y opti
 `npm i webpack webpack-dev-server html-webpack-plugin --save-dev`
 
 ### Here’s why they are needed:
-> webpack is core dependency
-> webpack-dev-server will allow us to run dev server
-> html-webpack-plugin simplifies working with html files
+- webpack is core dependency
+- webpack-dev-server will allow us to run dev server
+- html-webpack-plugin simplifies working with html files
 
 ## Create webpack.config.js with following content:
 
@@ -70,9 +70,9 @@ plugins: [new HtmlWebPackPlugin({ template: "./src/index.html" })]
 
 `npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev`
 
-> We’ve installed babel and two presets here:
-> @babel/preset-react to compile JSX down to Javascript
-> @babel/preset-env to compile Javascript ES6 code down to ES5
+- We’ve installed babel and two presets here:
+- @babel/preset-react to compile JSX down to Javascript
+- @babel/preset-env to compile Javascript ES6 code down to ES5
 
 ## Create .babelrc with following contents:
 
@@ -116,8 +116,8 @@ Install React dependencies:
 
 `npm i react react-dom`
 
-> react - provides us with API to work with components
-> react-dom - allows to render to HTML DOM
+- react - provides us with API to work with components
+- react-dom - allows to render to HTML DOM
 
 ## Create file src/App.js with following code:
 
