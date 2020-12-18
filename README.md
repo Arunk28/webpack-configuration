@@ -142,8 +142,8 @@ ReactDOM.render(<App />, document.getElementById("root"))
 `npm start`
 
 
-***Note:
-Issue fix for web pack > 3 : 
-https://stackoverflow.com/questions/40379139/cannot-find-module-webpack-bin-config-yargs
-***
+**Note:**
+***Issue fix for web pack > 3  
+https://stackoverflow.com/questions/40379139/cannot-find-module-webpack-bin-config-yargs***
+
 
